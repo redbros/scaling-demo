@@ -14,7 +14,7 @@ Creating your Own
 If you want to create your own copy of this application, just run the
 following command:
 
-    rhc create-app scaletest jbosseap mysql-5
+    rhc create-app scaletest jbosseap mysql-5 -s
     cd scaletest
     git remote add upstream -m master https://github.com/matthicksj/scaling-demo
     git fetch upstream
